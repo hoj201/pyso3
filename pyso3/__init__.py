@@ -1,3 +1,4 @@
+name = 'pyso3'
 from pyso3.rodriguez import exp, log
 from pyso3.generate import generate_random_rot
 from pyso3 import check
