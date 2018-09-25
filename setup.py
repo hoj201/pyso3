@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pyso3",
-    version="0.0.1",
+    version="0.0.2",
     author="Henry Jacobs",
     author_email="hoj201@gmail.com",
     description="A minimal package for dealing with rotation matrices",
@@ -18,6 +18,6 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ),
-    install_requires=["numpy"],
+    install_requires=["numpy>=1.14"],
     python_requires='>=2.7, <4',
 )
