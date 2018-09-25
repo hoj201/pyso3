@@ -12,6 +12,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/hoj201/pyso3",
+    download_url="https://github.com/hoj201/pyso3/archive/v0.0.1.tar.gz",
     packages=setuptools.find_packages(exclude=['test*']),
     classifiers=(
         "Programming Language :: Python :: 3",
@@ -20,4 +21,5 @@ setuptools.setup(
     ),
     install_requires=["numpy>=1.14"],
     python_requires='>=2.7, <4',
+    include_package_data=True
 )
